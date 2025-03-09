@@ -1,0 +1,4 @@
+icones
+npm install react-icons --save
+npm install @react-icons/all-files --save 
+https://react-icons.github.io/react-icons/icons/fa6/

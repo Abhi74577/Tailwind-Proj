@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.newsletter_container {
+    max-width: 90vw;
+    height: 100vh;
+    padding: 10px;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newsletter_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 60vh;
+}
+
+/* -----left_section_container_css_img----- */
+.left_section_container {
+    /* border: 1px solid black; */
+    position: relative;
+    overflow: hidden;
+    height: 60vh;
+}
+.img_section_img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    object-position: center;
+}
+
+
+
+/* -----rigth_section_container_css------ */
+.rigth_section_container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
+    gap: 25px;
+}
+
+.section_header .header_valu2{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(4, 4, 140);
+    margin-bottom: 6px;
+}
+
+.section_header .info {
+    font-size: 18px;
+    color: rgb(60, 60, 62);
+    font-weight: 500px;
+}
+
+.section_input_form {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.input_box_section .inputtext_box{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px 14px;
+    color: black;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.section_input_form .btnbox{
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 10px 14px;
+    color: rgb(236, 230, 230);
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(4, 4, 140);
+}
+
+.footer_section {
+    font-size: 18px;
+    color: rgb(27, 27, 28);
+    font-weight: 600;
+}
+
+
+
+@media screen and (max-width:580px) {
+    .newsletter_container {
+        max-width: 500px;
+
+    }
+
+    .newsletter_section {
+        display: flex;
+        flex-direction: column;
+       
+        height: 100vh;
+        margin: 0 auto;
+    }
+
+
+}
+
+
+@media screen and (max-width:420px) {
+    .section_input_form {
+        display: flex;
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    /* .input_box_section .inputtext_box{
+        border: 1px solid black;
+        border-radius: 2px;
+        padding: auto;
+        color: black;
+        font-size: 15px;
+        font-weight: 400;
+    } */
+
+    .section_header .header_valu2{
+        font-size: 28px;
+    }
+   
+
+}
+
+@media screen and (max-width:340px) {
+    .section_header .header_valu2{
+        font-size: 20px;
+    }
+   
+}

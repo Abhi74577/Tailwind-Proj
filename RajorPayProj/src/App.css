@@ -1,0 +1,13 @@
+.companyList {
+    animation: 10s infinite linear movecompany;
+}
+
+@keyframes movecompany {
+    0% {
+        top: 0
+    }
+
+    100% {
+        top: -50%;
+    }
+}
