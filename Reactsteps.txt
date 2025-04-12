@@ -1,0 +1,46 @@
+React - three.js   
+https://www.youtube.com/watch?v=kt0FrkQgw8w&list=PL6QREj8te1P7d4j3k8Snfa187o-IjXuJx
+
+
+--- Website Tailwind / React
+https://www.youtube.com/watch?v=_oO4Qi5aVZs
+
+
+
+---- React Application Setup Steps ----
+1- npm create vite@latest my-vue-app
+2- go inside folder name ans install - npm i 
+3- install tailwind - npm install tailwindcss @tailwindcss/vite
+4- vite.config.ts set up --
+		import { defineConfig } from 'vite'
+		import tailwindcss from '@tailwindcss/vite'
+		export default defineConfig({
+		plugins: [
+			tailwindcss(),
+		],
+		})
+
+5- intall all state management Redux and Redux-toolkit 
+		npm install react-redux
+		npm install @reduxjs/toolkit
+		
+		
+6- react toster
+	npm i react-toastify
+	
+7- slider movie like React slick is a carousel component built with React.
+	https://react-slick.neostack.com/docs and react-multi-carousel
+
+
+8- router - npm i react-router
+
+9- all Type of animation - https://animation.ibelick.com/tada
+10- Animation react - https://michalsnik.github.io/aos/
+	
+11 - npm install @react-icons/all-files --save
+	npm install react-icons --save
+	
+
+Video Link 32 Proj in React - https://www.youtube.com/watch?v=UA8Sxk_mHb8&list=PLMNhwMMnPnGpN5LlLDmzve4eIDDTU7voc&index=1
+
+

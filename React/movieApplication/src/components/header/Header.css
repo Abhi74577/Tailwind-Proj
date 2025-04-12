@@ -1,0 +1,8 @@
+header{
+    width: 100%;
+    background-image: linear-gradient(to left top, #040912, #0f0f0f, #0b0d0d, #282928, #000000);
+    position: fixed;
+    top: 0;
+    z-index: 101;
+ 
+}

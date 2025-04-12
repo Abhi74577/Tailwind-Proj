@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+    font-family: "Poppins" sans-serif;
+    background-color: rgba(12, 12, 12, 0.969);
+}
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.flexSB{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    max-width: 90%;
+    margin: auto;
+}
+
+
+
